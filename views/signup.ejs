@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>회원가입 페이지입니다</h1>
+    <form action="/users/signup" method="post">
+      <input placeholder="이름" type="text" name="userName" />
+      <br />
+      <input placeholder="아이디" type="text" name="userId" />
+      <br />
+      <input placeholder="비밀번호" type="password" name="userPassword" />
+      <br />
+      <button type="submit">회원가입</button>
+    </form>
+    <a href="/user/login">
+      <button>로그인</button>
+    </a>
+  </body>
+</html>
